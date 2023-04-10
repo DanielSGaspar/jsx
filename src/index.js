@@ -1,6 +1,7 @@
 // Import the React and ReactDOM Libraries
 import React from 'react';
 import ReactDOM from 'react-dom/client'
+import App from './App';
 
 // Get a reference to the div with ID root
 const el = document.getElementById('root');
@@ -9,9 +10,6 @@ const el = document.getElementById('root');
 const root = ReactDOM.createRoot(el);
 
 // Create a component
-function App() {
-  return <h1> Hello World!</h1>;
-}
 
 
 // Show the component on the screen
